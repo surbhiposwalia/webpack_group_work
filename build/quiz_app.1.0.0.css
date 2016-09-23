@@ -1,0 +1,35 @@
+body {
+  background-color: #718bae;
+  color: #1E2835;
+}
+a {
+  color: #1E2835;
+}
+h1 {
+  text-shadow: 2px 2px 5px #ffffff;
+  background-color: #1E2835;
+  color: #F8F8F8;
+  text-align: center;
+  box-shadow: 10px 10px 5px #696969;
+}
+header {
+  position: fixed;
+  height: 100px;
+}
+.main {
+  padding-top: 100px;
+}
+.box {
+  background-color: #1E2835;
+  color: #F8F8F8;
+  text-align: center;
+  box-shadow: 10px 10px 5px #696969;
+}
+button {
+  background-color: #F8F8F8;
+}
+button:hover {
+  color: #F8F8F8;
+  background-color: #718bae;
+}
+/*# sourceMappingURL=quiz_app.1.0.0.css.map */

@@ -1,0 +1,42 @@
+@white: #F8F8F8;
+@black: #1E2835;
+@bgcolor:#009933;
+@header-height: 100px;
+@grey:lighten(@black,40%);
+body {
+    background-color: @grey;
+    color: @black;
+}
+
+a {
+    color: @black;
+}
+
+h1 {
+    
+    text-shadow: 2px 2px 5px #ffffff;
+    .box;
+}
+header {
+    position: fixed;
+    height: @header-height;
+}
+
+.main {
+    padding-top: @header-height;
+}
+
+.box{
+    background-color:@black;
+    color:@white;
+    text-align:center;
+    box-shadow: 10px 10px 5px #696969;
+}
+
+button{
+    background-color:@white;
+    &:hover {
+        color: @white;
+        background-color:@grey;
+    }
+}
